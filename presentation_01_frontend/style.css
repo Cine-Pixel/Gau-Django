@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+.form-title {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+
+.my-custom-btn {
+    width: 100%;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+@media(max-width: 960px) {
+    .custom-row > * {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+
+@media(max-width: 720px) {
+    .custom-row > * {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
